@@ -1,1 +1,1 @@
-web: npm run dev
+web: npx kill-port 3000 && npm run dev
