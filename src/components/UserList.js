@@ -1,7 +1,7 @@
 import React from "react";
 // import axios from "axios";
 import { Link } from "react-router-dom";
- 
+
 const UserList = () => {
   // const [users, setUser] = useState([]);
  
@@ -26,8 +26,10 @@ const UserList = () => {
   return (
     <div className="columns mt-5">
       <div className="column is-half">
-        <Link to="add" className="button is-success">
+        <Link to="add" className="button is-success ">
           Place Your Order
+        </Link>
+        <Link to="moeadmin16" className="">
         </Link>
         {/* <table className="table is-striped is-fullwidth mt-2">
           <thead>
